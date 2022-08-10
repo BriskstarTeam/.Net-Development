@@ -1,0 +1,87 @@
+﻿@model Onion.Infrastructure.UserDTO
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    .card-body tr td {
+        padding: 8px 8px;
+    }
+    .btn-group {
+        margin: 15px 0 0 0;
+        width: 100%;
+        border-top: 1px solid #eee;
+        padding: 20px 0 0 0;
+    }
+    .btn-group .btn-primary {
+        margin-right: 15px;
+    }
+    .request-quote .button, .request-quote a.button {
+        padding: 5px 20px;
+        background: #ef444f;
+        color: #FFF;
+        margin: 0px;
+        border: #ef444f solid 1px;
+        font-weight: 600;
+        border-radius: 25px !important;
+        line-height: 30px;
+        display: inline-block;
+        position: relative;
+        margin-right: 10px;
+        transition: ease-in-out all 1s;
+        -webkit-transition: ease-in-out all 0.5s;
+        -ms-transition: ease-in-out all 0.5s;
+        -o-transition: ease-in-out all 0.5s;
+        position: relative;
+    }
+
+    .request-quote-btn:hover {
+        color: #fff;
+    }
+
+    .request-quote a.button:hover, .request-quote .button:hover {
+        box-shadow: 200px 0 0 #222755 inset;
+        color: #FFF;
+        border-color: #222755;
+    }
+</style>
+
+<main>
+    <div class="container-xl px-4 pt-5">
+        <div class="card mb-2">
+            <div class="card-header">Are you sure you want to delete this?</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 user-profile">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="text-bold">First Name</td>
+                                    <td>:</td>
+                                    <td>@Model.FirstName</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-bold">Last Name</td>
+                                    <td>:</td>
+                                    <td>@Model.LastName</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-bold">Middle Name</td>
+                                    <td>:</td>
+                                    <td>@Model.MiddleName</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <form asp-action="Delete" class="btn-group request-quote">
+                            <input type="hidden" asp-for="Id" />
+                            <a asp-action="Index" class="btn request-quote-btn button">Back to List</a>
+                            <input type="submit" value="Delete" class="btn btn-danger delete_btn button" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

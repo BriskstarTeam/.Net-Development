@@ -1,0 +1,111 @@
+﻿<error errorId="0b0e6a8b-f999-4a6a-9916-5962501abc7c" application="OnionCrud.Web" host="MANISH-CHAVDA" type="HTTP" message="NotFound" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;ElmahCore.HttpException: NotFound" time="2022-08-10T06:36:34.8192411Z" statusCode="404">
+  <serverVariables>
+    <item name="HttpVersion">
+      <value string="1.1" />
+    </item>
+    <item name="Scheme">
+      <value string="http" />
+    </item>
+    <item name="Method">
+      <value string="GET" />
+    </item>
+    <item name="PathBase">
+      <value string="" />
+    </item>
+    <item name="Path">
+      <value string="/feather/unpkg/feather.min.js" />
+    </item>
+    <item name="QueryString">
+      <value string="" />
+    </item>
+    <item name="RawTarget">
+      <value string="/feather/unpkg/feather.min.js" />
+    </item>
+    <item name="HasResponseStarted">
+      <value string="False" />
+    </item>
+    <item name="RemotePort">
+      <value string="0" />
+    </item>
+    <item name="LocalPort">
+      <value string="0" />
+    </item>
+    <item name="TraceIdentifier">
+      <value string="8000001d-0001-fa00-b63f-84710c7967bb" />
+    </item>
+    <item name="Header_Accept">
+      <value string="*/*" />
+    </item>
+    <item name="Header_Accept-Encoding">
+      <value string="gzip, deflate, br" />
+    </item>
+    <item name="Header_Accept-Language">
+      <value string="en-US,en;q=0.9" />
+    </item>
+    <item name="Header_Connection">
+      <value string="keep-alive" />
+    </item>
+    <item name="Header_Cookie">
+      <value string=".AspNetCore.Antiforgery.MiaSde0xiLc=CfDJ8J66kFfeesNIheGPdc2MD3rHW1BH8kgLS9FZri9TQJdDAPFoN6viEPmWl6qWhLf_T1MUwbYbSXOEkiUZEJzVpi_wB8bw_snTN-kWHTAr5lLQhaooEBH5OaQEcZmzObWgaUSHxBEg6KjrY0gy1oBaINE; .AspNetCore.Antiforgery.FKfk0GbRhcY=CfDJ8J66kFfeesNIheGPdc2MD3qmPV4EP2rk9bBEzWm0fKnHPtz-cFQJcdbdkfFOlUoyf3rg_q2U8mVTT0C1tByZlgQtyWIiSFuDjCZcbHBvT8pEHFQ3wk_ob8iDhVvFgp3QZe44-xwA0VZqewOvRFcKyD8" />
+    </item>
+    <item name="Header_Host">
+      <value string="localhost:35816" />
+    </item>
+    <item name="Header_Referer">
+      <value string="http://localhost:35816/Users" />
+    </item>
+    <item name="Header_User-Agent">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" />
+    </item>
+    <item name="Header_sec-ch-ua">
+      <value string="&quot;.Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;103&quot;, &quot;Chromium&quot;;v=&quot;103&quot;" />
+    </item>
+    <item name="Header_sec-ch-ua-mobile">
+      <value string="?0" />
+    </item>
+    <item name="Header_sec-ch-ua-platform">
+      <value string="&quot;Windows&quot;" />
+    </item>
+    <item name="Header_Sec-Fetch-Site">
+      <value string="same-origin" />
+    </item>
+    <item name="Header_Sec-Fetch-Mode">
+      <value string="no-cors" />
+    </item>
+    <item name="Header_Sec-Fetch-Dest">
+      <value string="script" />
+    </item>
+    <item name="MaxRequestBodySize">
+      <value string="30000000" />
+    </item>
+    <item name="StatusCode">
+      <value string="404" />
+    </item>
+    <item name="Connection_Id">
+      <value string="18014398515387564041" />
+    </item>
+    <item name="Connection_RemoteIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="1107" />
+    </item>
+    <item name="Connection_LocalIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="35816" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="404" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name=".AspNetCore.Antiforgery.MiaSde0xiLc">
+      <value string="CfDJ8J66kFfeesNIheGPdc2MD3rHW1BH8kgLS9FZri9TQJdDAPFoN6viEPmWl6qWhLf_T1MUwbYbSXOEkiUZEJzVpi_wB8bw_snTN-kWHTAr5lLQhaooEBH5OaQEcZmzObWgaUSHxBEg6KjrY0gy1oBaINE" />
+    </item>
+    <item name=".AspNetCore.Antiforgery.FKfk0GbRhcY">
+      <value string="CfDJ8J66kFfeesNIheGPdc2MD3qmPV4EP2rk9bBEzWm0fKnHPtz-cFQJcdbdkfFOlUoyf3rg_q2U8mVTT0C1tByZlgQtyWIiSFuDjCZcbHBvT8pEHFQ3wk_ob8iDhVvFgp3QZe44-xwA0VZqewOvRFcKyD8" />
+    </item>
+  </cookies>
+</error>

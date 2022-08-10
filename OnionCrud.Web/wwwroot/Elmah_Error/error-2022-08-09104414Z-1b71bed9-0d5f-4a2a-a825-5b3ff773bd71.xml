@@ -1,0 +1,120 @@
+﻿<error errorId="1b71bed9-0d5f-4a2a-a825-5b3ff773bd71" application="Onion.Web" host="MANISH-CHAVDA" type="HTTP" message="NotFound" detail="# caller: @C:\Sources\ElmahCore\ElmahCore\ElmahCore\Internal$\CallerInfo.cs:9&#xD;&#xA;ElmahCore.HttpException: NotFound" time="2022-08-09T10:44:14.1441631Z" statusCode="404">
+  <serverVariables>
+    <item name="HttpVersion">
+      <value string="1.1" />
+    </item>
+    <item name="Scheme">
+      <value string="https" />
+    </item>
+    <item name="Method">
+      <value string="GET" />
+    </item>
+    <item name="PathBase">
+      <value string="" />
+    </item>
+    <item name="Path">
+      <value string="/feather/cdnjs/feather.min.js" />
+    </item>
+    <item name="QueryString">
+      <value string="" />
+    </item>
+    <item name="RawTarget">
+      <value string="/feather/cdnjs/feather.min.js" />
+    </item>
+    <item name="HasResponseStarted">
+      <value string="False" />
+    </item>
+    <item name="RemotePort">
+      <value string="0" />
+    </item>
+    <item name="LocalPort">
+      <value string="0" />
+    </item>
+    <item name="TraceIdentifier">
+      <value string="8000009d-0001-ee00-b63f-84710c7967bb" />
+    </item>
+    <item name="Header_Accept">
+      <value string="*/*" />
+    </item>
+    <item name="Header_Accept-Encoding">
+      <value string="gzip, deflate, br" />
+    </item>
+    <item name="Header_Accept-Language">
+      <value string="en-US,en;q=0.9" />
+    </item>
+    <item name="Header_Cache-Control">
+      <value string="no-cache" />
+    </item>
+    <item name="Header_Connection">
+      <value string="keep-alive" />
+    </item>
+    <item name="Header_Cookie">
+      <value string=".AspNetCore.Antiforgery.MiaSde0xiLc=CfDJ8J66kFfeesNIheGPdc2MD3qTk77tsl7PXlAPrW8sSPjhWaP5SkPK_X26eHYudVY3arvRTMnqHF6dC--MnkPSqSHyHeEKWcQPppN5CpaRswjCtu8CTS2e6Xqn96oSkw7vTyOaVyGkaElQDdRe_n7ILHc; .AspNetCore.Antiforgery.iL9mcWNmFRk=CfDJ8J66kFfeesNIheGPdc2MD3qHcTF7c01nHPgrLKx40rw-j0vXkffWStFXsY4GzXhzN31upPYCeph3GYemWSArY3AeXkqA_RWpScNG5X5lIhP_IX-UQbzkc9OclEOV7YGSdK1Q4xdKxb3odjj4X621OuA; .AspNetCore.Session=CfDJ8J66kFfeesNIheGPdc2MD3rjswcXjxCR%2B9fP6RwoiafosFfQBshczxI88eNeVXsYv8H0uapXdf6aSl5t659bMapwbgftQGuaYD2HLDfNXSEW%2BoQOhY7PyG9pGylnz2F09KhRqrbhdRVBOFaoK4W55yKorjiL1QfQ0Ix%2BUD62PdmD" />
+    </item>
+    <item name="Header_Host">
+      <value string="localhost:44353" />
+    </item>
+    <item name="Header_Pragma">
+      <value string="no-cache" />
+    </item>
+    <item name="Header_Referer">
+      <value string="https://localhost:44353/Users/Details/1" />
+    </item>
+    <item name="Header_User-Agent">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" />
+    </item>
+    <item name="Header_sec-ch-ua">
+      <value string="&quot;.Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;103&quot;, &quot;Chromium&quot;;v=&quot;103&quot;" />
+    </item>
+    <item name="Header_sec-ch-ua-mobile">
+      <value string="?0" />
+    </item>
+    <item name="Header_sec-ch-ua-platform">
+      <value string="&quot;Windows&quot;" />
+    </item>
+    <item name="Header_Sec-Fetch-Site">
+      <value string="same-origin" />
+    </item>
+    <item name="Header_Sec-Fetch-Mode">
+      <value string="no-cors" />
+    </item>
+    <item name="Header_Sec-Fetch-Dest">
+      <value string="script" />
+    </item>
+    <item name="MaxRequestBodySize">
+      <value string="30000000" />
+    </item>
+    <item name="StatusCode">
+      <value string="404" />
+    </item>
+    <item name="Connection_Id">
+      <value string="17149707386932428948" />
+    </item>
+    <item name="Connection_RemoteIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_RemotePort">
+      <value string="2447" />
+    </item>
+    <item name="Connection_LocalIpAddress">
+      <value string="::1" />
+    </item>
+    <item name="Connection_LocalPort">
+      <value string="44353" />
+    </item>
+    <item name="HttpStatusCode">
+      <value string="404" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name=".AspNetCore.Antiforgery.MiaSde0xiLc">
+      <value string="CfDJ8J66kFfeesNIheGPdc2MD3qTk77tsl7PXlAPrW8sSPjhWaP5SkPK_X26eHYudVY3arvRTMnqHF6dC--MnkPSqSHyHeEKWcQPppN5CpaRswjCtu8CTS2e6Xqn96oSkw7vTyOaVyGkaElQDdRe_n7ILHc" />
+    </item>
+    <item name=".AspNetCore.Antiforgery.iL9mcWNmFRk">
+      <value string="CfDJ8J66kFfeesNIheGPdc2MD3qHcTF7c01nHPgrLKx40rw-j0vXkffWStFXsY4GzXhzN31upPYCeph3GYemWSArY3AeXkqA_RWpScNG5X5lIhP_IX-UQbzkc9OclEOV7YGSdK1Q4xdKxb3odjj4X621OuA" />
+    </item>
+    <item name=".AspNetCore.Session">
+      <value string="CfDJ8J66kFfeesNIheGPdc2MD3rjswcXjxCR+9fP6RwoiafosFfQBshczxI88eNeVXsYv8H0uapXdf6aSl5t659bMapwbgftQGuaYD2HLDfNXSEW+oQOhY7PyG9pGylnz2F09KhRqrbhdRVBOFaoK4W55yKorjiL1QfQ0Ix+UD62PdmD" />
+    </item>
+  </cookies>
+</error>
